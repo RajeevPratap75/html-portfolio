@@ -1,0 +1,42 @@
+*{
+	box-sizing:border-box;
+	font-family:arial;
+}
+.bd{
+	margin:15px 30px;
+	font-size:17px;
+	padding:8px;
+	display:flex;
+	background-color:gray;
+	justify-content:center;
+}
+.container{
+	background-color:#cccccc;
+	padding:5px 20px 15px 20px;
+	border:4px solid black;
+	border-radius:4px;
+	overflow:auto;
+}
+.container h1,h2,legend,mm,ff{
+	display:flex;
+	justify-content:center;
+}
+.container input,select{
+	width:100%;
+	height:25px;
+}
+.gen p{
+	display:flex;
+	justify-content:center;
+}
+.paynow input{
+	background-color:gray;
+	height:40px;
+	width:300px;
+	font-size:30px;
+	font-weight:bold;
+}
+.paynow{
+	display:flex;
+	justify-content:center;
+}
